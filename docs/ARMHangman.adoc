@@ -1,0 +1,7 @@
+= ARM Assembly Hangman
+Bailee Segars bls0039@uah.edu
+:doctitle: ARM Assembly Hangman
+:author:
+:nofooter:
+:toc:
+:experimental:
