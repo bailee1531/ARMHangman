@@ -1,7 +1,36 @@
 = ARM Assembly Hangman
-Bailee Segars bls0039@uah.edu
+Bailee Segars
+v1.0, 2025-01-05
 :doctitle: ARM Assembly Hangman
-:author:
 :nofooter:
 :toc:
 :experimental:
+
+== Quickstart
+=== Prerequisites
+ARM Hangman requires: ::
+* ARMv7 compatible processor and OS
+
+=== Cloning the Repository
+. Open the terminal and navigate to the directory you want ARM Hangman to be in.
+. Enter the following command:
++
+[source, bash]
+----
+git clone https://github.com/bailee1531/ARMHangman.git
+----
+
+=== Running ARM Hangman
+Use these commands to assemble, link, and run ARM Hangman.
+
+[source, bash]
+----
+# Assemble
+as -o hangman.o hangman.s
+
+# Link
+gcc -o hangman hangman.o
+
+# Run
+./hangman
+----
