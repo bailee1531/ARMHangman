@@ -1,2 +1,3 @@
 name: arm-hangman
 version: '1.0'
+start_page: arm-hangman::index.adoc
