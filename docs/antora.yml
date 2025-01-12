@@ -1,2 +1,4 @@
 name: arm-hangman
 version: ~
+nav:
+- modules/ROOT/nav.adoc
